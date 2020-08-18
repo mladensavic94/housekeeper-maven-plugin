@@ -38,6 +38,13 @@
                 <artifactId>housekeeper-maven-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <configuration></configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>swipe</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
